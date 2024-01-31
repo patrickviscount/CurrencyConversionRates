@@ -8,4 +8,4 @@ conversionRates.py will handle all of the currency conversions. The cmdUI.py wil
 
 Fenil: Edit the cmdUI file to interface with the user. We are just looking for a simple text menu that lets the user pick the currency they need, and if they are switching into or out of canadian dollars.
 Mohammad: Edit the conversionRates file to handle many different currency types. In here, you just need to make the same function I provided, but copy and paste it to work with different currency amounts.
-Patrick: Admin the github, help anyone with any problems, will connect the two files to help Fenil use the functions in conversionRates.py
+Patrick: Created the repository, added the foundation/structure of the software, Admin the github, help anyone with any problems, connect the two files to help Fenil use the functions in conversionRates.py, pass in assignment
