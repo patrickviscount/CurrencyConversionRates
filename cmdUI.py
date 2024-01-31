@@ -1,3 +1,6 @@
+#This is the main file, it will serve the user a command line user interface to allow them to interact with the software.
+#In the backend, it will talk to the other python file, conversionLibrary to actually handle the currency conversion.
+
 def main():
     options = ["American Dollar", "Mexican Peso", "British Pound"]
     print(f"Welcome, what currency do you want to select: {options}!")
