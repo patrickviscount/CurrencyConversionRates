@@ -16,3 +16,32 @@ def britishPound(amount, option):
         return amount * gbp_to_cad
     else:
         return "Invalid option. Please enter 1 or 2."
+
+
+def mexicanPeso(amount, option):
+    # Define the exchange rates
+    cad_to_mxn = 12.73  # 1 CAD = 12.73 MXN
+    mxn_to_cad = 1 / cad_to_mxn  
+    # Convert based on the option
+    if option == 1:
+        # Convert from CAD to MXN
+        return amount * cad_to_mxn
+    elif option == 2:
+        # Convert from MXN to CAD
+        return amount * mxn_to_cad
+    else:
+        return "Invalid option. Please enter 1 or 2."
+
+def mexicanPeso(amount, option):
+    # Define the exchange rates
+    cad_to_mxn = 12.73  # 1 CAD = 12.73 MXN
+    mxn_to_cad = 1 / cad_to_mxn  
+    # Convert based on the option
+    if option == 1:
+        # Convert from CAD to MXN
+        return amount * cad_to_mxn
+    elif option == 2:
+        # Convert from MXN to CAD
+        return amount * mxn_to_cad
+    else:
+        return "Invalid option. Please enter 1 or 2."
